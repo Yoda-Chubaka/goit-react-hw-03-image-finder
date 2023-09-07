@@ -59,7 +59,7 @@ export class App extends Component {
         if (totalPage > page) {
           this.setState({ btnLoadMore: true })
         } else {
-          // Notify.info("We're sorry, but you've reached the end of search results.", paramsForNotify);
+          Notify.info("We're sorry, but you've reached the end of search results.", paramsForNotify);
           this.setState({ btnLoadMore: false });
         };
       })
@@ -122,7 +122,6 @@ export class App extends Component {
 
     return (
       <div>
-        <h1>Image finder</h1>
         <Searchbar onSubmitSearchBar={this.onSubmitSearchBar} />
         {loading && <Loader />}
         {/* {error && <h2>Error</h2>} */}

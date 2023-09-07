@@ -9,7 +9,7 @@ export const ButtonStyle = styled.button`
   padding: 8px 16px;
   margin-left: auto;
   border-radius: 2px;
-  background-color: #3f51b5;
+  background-color: #00b274;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   text-align: center;
   display: inline-block;
@@ -23,12 +23,10 @@ export const ButtonStyle = styled.button`
   font-style: normal;
   font-weight: 500;
   min-width: 180px;
-  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
-    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
   &:hover {
-    background-color: #303f9f;
+    background-color: #2e8c05;
   }
   &:focus {
-    background-color: #303f9f;
+    background-color: #2e8c05;
   }
 `;
